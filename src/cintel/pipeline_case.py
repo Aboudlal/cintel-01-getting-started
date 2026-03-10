@@ -1,7 +1,7 @@
 """
 pipeline_case.py - Project script (example).
 
-Author: Denise Case
+Author: Abdellah Boudlal
 Date: 2026-03-07
 
 Purpose:
