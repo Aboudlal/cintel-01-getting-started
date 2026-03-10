@@ -82,8 +82,8 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/cintel-01-getting-started
+
+git clone https://github.com/aboudlal/cintel-01-getting-started
 cd cintel-01-getting-started
 code .
 ```
