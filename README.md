@@ -100,6 +100,7 @@ git add -A
 uvx pre-commit run --all-files
 
 uv run python -m cintel.pipeline_case
+uv run python -m cintel.pipeline_abdellah
 
 uv run ruff format .
 uv run ruff check . --fix
@@ -116,3 +117,11 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## Technical Modification
+
+I created a new file named `pipeline_abdellah.py` based on the original example.
+I added logging for the `src` directory and a custom log message to better track the project structure during execution.
+
+After running the modified script, the program executed successfully and displayed the additional log message in the terminal output.
+This confirmed that the modification worked correctly.
